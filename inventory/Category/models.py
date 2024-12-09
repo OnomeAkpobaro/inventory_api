@@ -8,6 +8,7 @@ CATEGORIES = (
     ("category B", "category B"),
     ("category C", "category C"),
     ...
+
 )
 
 class Category(models.Model):
@@ -16,3 +17,4 @@ class Category(models.Model):
     def __str__(self):
         return self.name
     
+
